@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      #block {
+        width: 50px;
+        height: 50px;
+        background-color: #000dff;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="block"></div>
+    <script src="/anime-master/lib/anime.min.js"></script>
+    <script>
+      var cssSelector = anime({
+        targets: "#block",
+        translateX: 250,
+      });
+    </script>
+  </body>
+</html>

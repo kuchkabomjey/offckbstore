@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa&display=swap");
+
+body {
+  font-family: Comfortaa, serif;
+  background: linear-gradient(185deg, #ffe5f7 33%, #ffffff 100%);
+}
+
+.nav-link {
+  color: rgb(251, 29, 255);
+}
+
+.navbar-nav .nav-link.active {
+  color: black;
+}
+
+.navbar-brand img {
+  width: 85px;
+}
+
+.navbar-toggler {
+  background-color: rgb(255, 4, 251);
+}
+
+.navbar {
+  font-weight: 1000;
+  font-size: x-large;
+}
+
+.card-title {
+  font-size: large;
+}
+
+.card-body img {
+  height: 500px;
+}
+
+.card-link {
+  font-size: larger;
+  color: rgb(0, 220, 220);
+}
+
+.card-title-kb {
+  color: black;
+  font-size: xx-large;
+}
+
+.card-text {
+  color: black;
+  font-size: x-large;
+}
